@@ -2,8 +2,6 @@
 from test import MENU
 from test import resources
 
-profit = 0
-
 def check_requirements(ingredients, current_resources):
     # checks if machine has required ingredients to make the desired coffee
     denied = False
@@ -51,7 +49,9 @@ def subtract_ingredients(ingredients, current_resources):
     return f_new_resources
 
 
+profit = 0
 machine_on = True
+
 while machine_on:
     rejected_input = True
     while rejected_input:
@@ -85,4 +85,3 @@ while machine_on:
             # Replaces new resource values into resource dictionary
             for i in new_resources:
                 resources[i] = new_resources[i]
-
