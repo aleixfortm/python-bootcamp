@@ -1,2 +1,2 @@
 # coffee-machine
-Coffee machine simulator -- Project as part of a self-taught coding experience
+Coffee machine simulator -- project as part of a self-taught coding journey
