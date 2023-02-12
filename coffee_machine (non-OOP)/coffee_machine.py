@@ -1,6 +1,6 @@
 #coffee machine program
-from test import MENU
-from test import resources
+from data import MENU
+from data import resources
 
 def check_requirements(ingredients, current_resources):
     # checks if machine has required ingredients to make the desired coffee
